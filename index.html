@@ -41,6 +41,9 @@
                                 <input type="text" class="form-control" id="input-income" value=""
                                     placeholder="Inter Your Amount">
                             </div>
+                            <div class="col-10">
+
+                            </div>
                         </div>
                         <!-- my Expenses -->
                         <!-- my Expenses -->
@@ -63,6 +66,8 @@
                             <div class="col-sm-7">
                                 <input type="text" class="form-control" id="cloth-exp" value="" placeholder="0">
                             </div>
+                            <p id="expenses-error" class="expenses-error text-center text-danger fs-5 ">Error ! Please
+                                inter valid number!!</p>
                         </div>
                         <!-- btn calculate -->
                         <!-- btn calculate -->
@@ -72,8 +77,12 @@
                         <!-- Best prices & Extra cost  -->
                         <!-- Best prices & Extra cost  -->
                         <div class=" row d-flex justify-content-center mt-4">
+                            <p id="total-expenses-error" class="total-expenses-error text-center text-danger fs-5">
+                                Expenses higher
+                                then Income </p>
                             <div class="col-7 col-lg-6">
                                 <p class="bold fs-4">Total Expenses:</p>
+
                                 <p class="bold fs-4">Balance:</p>
 
                             </div>
@@ -88,20 +97,23 @@
                         <div class="form-outline mb-4 w-100 d-flex justify-content-center">
                             <label class="form-label me-3 fs-3" for="form1Example13">Save:</label>
                             <input type="email" id="saving-persentence" class="form-control form-control-lg w-25"
-                                value="0" placeholder="" />
+                                value="" placeholder="0" />
                             <span class="mx-3 fs-5 mt-2">%</span>
                             <button id="saving-btn" class="btn btn-info text-white px-5">SAVE</button>
                         </div>
                         <!-- saving and remaning balance -->
                         <!-- saving and remaning balance -->
                         <div class=" row d-flex justify-content-center mt-4">
+                            <p id="saving-error" class=" saving-error text-center fs-5 text-danger">Give lower percent
+                                amount!
+                            </p>
                             <div class="col-7  col-lg-6 ">
-                                <p class="bold fs-4">Saving Balance:</p>
+                                <p class="bold fs-4">Saving Amount:</p>
                                 <p class="bold fs-4">Remaining Balance:</p>
 
                             </div>
                             <div class="col-5  col-lg-4 ">
-                                <p class="bold fs-4">$<span id="saving-balance">0</span></p>
+                                <p class="bold fs-4">$<span id="saving-amount">0</span></p>
                                 <p class="bold fs-4">$<span id="remaining-balance">0</span></p>
 
                             </div>

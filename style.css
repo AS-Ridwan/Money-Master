@@ -4,3 +4,9 @@ input#rent-exp,
 input#cloth-exp {
   font-size: 20px;
 }
+
+.saving-error,
+.expenses-error,
+.total-expenses-error {
+  display: none;
+}
