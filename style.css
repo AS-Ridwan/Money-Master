@@ -1,0 +1,6 @@
+input#input-income,
+input#food-exp,
+input#rent-exp,
+input#cloth-exp {
+  font-size: 20px;
+}
